@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>PACT Datasets and Evaluation</title>
+
+  <!-- Icon that appears in tab -->
+  <link rel="shortcut icon" href="images/favicon.ico" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/business-frontpage.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">PACT Datasets and Evaluation</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="datasets.html">Datasets</a>
+            <span class="sr-only">(current)</span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="leaderboards.html">Leaderboards</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary py-5 mb-5">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-12">
+          <h1 class="display-4 text-white mt-5 mb-2 black-shadow"><b>PACT Datasets and Evaluation</b></h1>
+          <p class="lead mb-5 text-white black-shadow">Our mission is to aggregate datasets and provide an evaluation platform in support of the <a href="https://pact.mit.edu/">PACT mission statement.</a></p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <h2 id="Datasets">Datasets</h2>
+    <p>For instructions on how to submit a dataset <a href="#datasets-submit">click here</a>.</p>
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="images/demoimg1.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">H0H1</h4>
+            <p class="card-text">A bluetooth proximity dataset collected varying distance between participanges to be far (H0, >10ft) or close (H1, <6ft). </p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/mitll/H0H1/archive/master.zip" class="btn btn-primary">Download</a>
+            <a href="https://github.com/mitll/H0H1" class="btn btn-primary">View on Github</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="images/demoimg1.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Range Angle</h4>
+            <p class="card-text">A bluetooth proximity dataset collected by varying range angle between participants.</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/mitll/Range_Angle/archive/master.zip" class="btn btn-primary">Download</a>
+            <a href="https://github.com/mitll/Range_Angle" class="btn btn-primary">View on Github</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="images/demoimg2.jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Template Dataset</h4>
+            <p class="card-text">A template dataset to be used for external dataset submissions.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Download</a>
+            <a href="#" class="btn btn-primary">View on Github</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <div class="row">
+      <div class="col-md-12 mb-5">
+        <h2 id="datasets-submit">How to Submit a Dataset</h2>
+        <p>If you have a dataset you are interested in seeing on this website please choose an option below to proceed.</p>
+        <hr>
+        <h3>Option 1 (preferred): Using Github Repositories</h3>
+        <p>Please use this option if you are familiar with setting up a Github repository and if your dataset does not contain any single files that are larger than 4GB.</p>
+        <ol>
+          <li>Fork the dataset template repository <a href="https://github.com/mitll/PACTTemplateDataset">here</a></li>
+          <li>Populate the template repository with your data</li>
+          <li>Create a pull request on the PACT Github. Your pull request should include the following changes to the PACT Repository:</li>
+          <ul>
+            <li>Your dataset card added to the datasets.html file (with correct 'Download' and 'View on Github' links)</li>
+            <li>Your dataset's repository added as a submodule under the top-level datasets folder</li>
+          </ul>
+          <li>Add the following tag to your pull request: <code>Task: Dataset Submission</code>
+          <li>A member of the PACT Datasets and Evaluation team will review your pull request, validate your dataset and notify you if it has been added or if changes are required.</li>
+        </ol>
+        <h3>Option 2: Without Github Repositories</h3>
+        <p>If you do not wish to use Github or your dataset is too large for Github's large file share (LFS) feature, please email the PACT Datasets and Evaluation team at pactdatasets@gmail.com with the dataset name and a brief description of how it was collected. Please either attach your dataset directly to the email or else provide a link to where it can be accessed by the PACT Team.</p>
+      </div>
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">&copy; 2020 Massachusetts Institute of Technology.</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

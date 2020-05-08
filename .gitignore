@@ -1,0 +1,4 @@
+node_modules
+.pyc
+.DS_Store
+__pycache__
