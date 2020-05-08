@@ -7,3 +7,6 @@
 [submodule "datasets/Range_Angle"]
 	path = datasets/Range_Angle
 	url = https://github.com/mitll/Range_Angle.git
+[submodule "datasets/PACTTemplateDataset"]
+	path = datasets/PACTTemplateDataset
+	url = https://github.com/mitll/PACTTemplateDataset.git
