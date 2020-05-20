@@ -76,7 +76,45 @@
         <h2>Data Collection</h2>
         <p>This page contains the latest information on how to contribute to data collection.</p>
 
-        <h3>Participation Instructions Coming Soon!</h3>
+        <h3>Participation Instructions</h3>
+
+        <p>MITLL is asking for members of the Bluetooth Too Close for Too Long (TC4TL) research community to contribute to a distributed data set collection effort. You will be provided with an app to send and record Bluetooth chirps and a test protocol to follow to help fill in data collected under conditions known to adversely affect Bluetooth RSSI values (e.g. hand, pocket, sitting, standing, etc.).  You can do this collection at home and it should only be done using household members who are co-isolating. You will need two iPhones to participate (one to transmit and one to receive chirps) and you will need to supply two emails so we can provide access to the app on each phone via Apple TestFlight. </p>
+
+        <p>The test protocols and a matrix of the desired collection conditions can be found here:</p>
+
+        <ul>
+          <li><a href="files/Situational Contact Tracing Test Procedure V. 2.0 (1.5).pdf">Situational Contact Tracing Test Procedure</a></li>
+          <li><a href="files/Structured Contact Tracing Protocol, V. 2.0 (1.5).pdf">Structured Contact Tracing Protocol</a></li>
+        </ul>
+
+        <p>Please fill out the form below and we will contact you with details on how to proceed.</p>
+
+        <h3>Participation Form</h3>
+        <form id="participationform" class="needs-validation" action="https://formspree.io/mbjzdzzv" method="POST" novalidate>
+              <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="text" class="form-control" id="inputName" name="name" aria-describedby="emailHelp" placeholder="Enter name" required>
+              </div>
+              <div class="form-group">
+                <label for="inputAffiliation">Affiliation</label>
+                <input type="text" class="form-control" id="inputAffiliation" name="affiliation" aria-describedby="emailHelp" placeholder="Enter affiliation">
+                <small id="affiliationhelptext" class="form-text text-muted">Optional</small>
+              </div>
+
+              <div class="form-group">
+                <label for="inputEmail1">First participant email address</label>
+                <input type="email" class="form-control" id="inputEmail1" name="email1" aria-describedby="emailHelp" placeholder="Enter email" required>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail2">Second participant email address</label>
+                <input type="email" class="form-control" id="inputEmail2" name="email2" aria-describedby="emailHelp" placeholder="Enter email" required>
+                <small id="emailhelptext" class="form-text text-muted">Note: Please use a different from the first</small>
+              </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+</p>
       </div>
     </div>
   </div>
@@ -97,3 +135,25 @@
 </body>
 
 </html>
+
+<script>
+// Disable form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+
+</script>
