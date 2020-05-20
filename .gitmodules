@@ -13,3 +13,6 @@
 [submodule "datasets/BLE-RSSI-Various-Static-Configurations"]
 	path = datasets/BLE-RSSI-Various-Static-Configurations
 	url = https://github.com/mitll/BLE-RSSI-Various-Static-Configurations.git
+[submodule "datasets/PACT-Phones-and-Bluetooth-Chipsets"]
+	path = datasets/PACT-Phones-and-Bluetooth-Chipsets
+	url = https://github.com/mitll/PACT-Phones-and-Bluetooth-Chipsets.git
