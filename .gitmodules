@@ -10,3 +10,6 @@
 [submodule "datasets/PACTTemplateDataset"]
 	path = datasets/PACTTemplateDataset
 	url = https://github.com/mitll/PACTTemplateDataset.git
+[submodule "datasets/BLE-RSSI-Various-Static-Configurations"]
+	path = datasets/BLE-RSSI-Various-Static-Configurations
+	url = https://github.com/mitll/BLE-RSSI-Various-Static-Configurations.git
