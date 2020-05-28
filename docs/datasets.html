@@ -166,15 +166,14 @@
         <h3>Option 1 (preferred): Using Github Repositories</h3>
         <p>Please use this option if you are familiar with setting up a Github repository and if your dataset does not contain any single files that are larger than 4GB.</p>
         <ol>
-          <li>Fork the dataset template repository <a href="https://github.com/mitll/PACTTemplateDataset">here</a></li>
-          <li>Populate the template repository with your data</li>
-          <li>Create a pull request on the PACT Github. Your pull request should include the following changes to the PACT Repository:</li>
-          <ul>
-            <li>Your dataset card added to the datasets.html file (with correct 'Download' and 'View on Github' links)</li>
-            <li>Your dataset's repository added as a submodule under the top-level datasets folder</li>
-          </ul>
-          <li>Add the following tag to your pull request: <code>Task: Dataset Submission</code>
-          <li>A member of the PACT Datasets and Evaluation team will review your pull request, validate your dataset and notify you if it has been added or if changes are required.</li>
+          <li>Create a new repository using the PACT Template repository by following this link: <a href="https://github.com/mitll/PACTTemplateDataset/generate">https://github.com/mitll/PACTTemplateDataset/generate</a></li>
+          <li>Add your dataset to this new repository. You may (and should) alter the README.md file. Also feel free to alter the DISTRIBUTION.md or LICENSE.md files but you should not remove them.</li>
+          <li>Make an issue on the main PACT repository here: <a href="https://github.com/mitll/PACT/issues">https://github.com/mitll/PACT/issues</a>
+            <ul>
+              <li>tag your issue with the label <code>Task: Dataset Submission</code></li>
+              <li>in your issue's description, include a link to the repository you created in Step 1</li>
+            </ul>
+          <li>The PACT Team will review your issue and attached dataset and will add it to the website or provide feedback as necessary</li>
         </ol>
         <h3>Option 2: Without Github Repositories</h3>
         <p>If you do not wish to use Github or your dataset is too large for Github's large file share (LFS) feature, please email the PACT Datasets and Evaluation team at pactdatasets@gmail.com with the dataset name and a brief description of how it was collected. Please either attach your dataset directly to the email or else provide a link to where it can be accessed by the PACT Team.</p>
