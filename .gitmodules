@@ -16,3 +16,6 @@
 [submodule "datasets/PACT-Phones-and-Bluetooth-Chipsets"]
 	path = datasets/PACT-Phones-and-Bluetooth-Chipsets
 	url = https://github.com/mitll/PACT-Phones-and-Bluetooth-Chipsets.git
+[submodule "datasets/KRI-Anechoic-Chamber-Dataset"]
+	path = datasets/KRI-Anechoic-Chamber-Dataset
+	url = https://github.com/mitll/KRI-Anechoic-Chamber-Dataset
