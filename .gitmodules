@@ -19,6 +19,3 @@
 [submodule "datasets/KRI-Anechoic-Chamber-Dataset"]
 	path = datasets/KRI-Anechoic-Chamber-Dataset
 	url = https://github.com/mitll/KRI-Anechoic-Chamber-Dataset
-[submodule "datasets/MIT-Matrix-Data"]
-	path = datasets/MIT-Matrix-Data
-	url = https://github.com/mitll/MIT-Matrix-Data.git
