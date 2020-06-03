@@ -22,3 +22,6 @@
 [submodule "datasets/MIT-Matrix-Data"]
 	path = datasets/MIT-Matrix-Data
 	url = https://github.com/mitll/MIT-Matrix-Data.git
+[submodule "datasets/MITRE-Range-Angle-Unstructured"]
+	path = datasets/MITRE-Range-Angle-Unstructured
+	url = https://github.com/mkrangle/MITRE-Range-Angle-Unstructured.git
