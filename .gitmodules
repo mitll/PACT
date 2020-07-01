@@ -25,3 +25,6 @@
 [submodule "datasets/MITRE-Range-Angle-Unstructured"]
 	path = datasets/MITRE-Range-Angle-Unstructured
 	url = https://github.com/mkrangle/MITRE-Range-Angle-Unstructured.git
+[submodule "datasets/MITRE-Range-Angle-Structured"]
+	path = datasets/MITRE-Range-Angle-Structured
+	url = https://github.com/mkrangle/MITRE-Range-Angle-Structured
