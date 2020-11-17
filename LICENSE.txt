@@ -1,0 +1,6 @@
+© 2020 Massachusetts Institute of Technology
+
+Subject to FAR 52.227-11 – Patent Rights – Ownership by the Contractor (May 2014).
+SPDX-License-Identifier: CC-BY-4.0
+
+https://creativecommons.org/licenses/by/4.0/legalcode
