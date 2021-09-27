@@ -28,3 +28,6 @@
 [submodule "datasets/MITRE-Range-Angle-Structured"]
 	path = datasets/MITRE-Range-Angle-Structured
 	url = https://github.com/mkrangle/MITRE-Range-Angle-Structured
+[submodule "datasets/PACT-Exposure-Notification-Beacons"]
+	path = datasets/PACT-Exposure-Notification-Beacons
+	url = https://github.com/mitll/PACT-Exposure-Notification-Beacons.git
