@@ -31,3 +31,6 @@
 [submodule "datasets/PACT-Exposure-Notification-Beacons"]
 	path = datasets/PACT-Exposure-Notification-Beacons
 	url = https://github.com/mitll/PACT-Exposure-Notification-Beacons.git
+[submodule "datasets/Exposure-Visualization-Tool"]
+	path = datasets/Exposure-Visualization-Tool
+	url = https://github.com/mitll/Exposure-Visualization-Tool
